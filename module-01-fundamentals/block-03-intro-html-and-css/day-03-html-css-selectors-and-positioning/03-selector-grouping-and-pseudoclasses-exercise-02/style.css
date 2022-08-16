@@ -1,3 +1,11 @@
+/*
+[x] 1 - Estilize as divs para que, ao passar o cursor por cima das mesmas, elas ganhem uma borda.
+[x] 2 - Faça cada div ter uma cor própria.
+[x] 3 - Estilize cada uma das tags h3.
+[x] 4 - Faça a terceira div ser maior que as demais.
+[x] 5 - Deixe as tags ímpares h3 com o texto em itálico.
+*/
+
 div:hover {
 	border: solid #a4a9ad 5px;
 }
