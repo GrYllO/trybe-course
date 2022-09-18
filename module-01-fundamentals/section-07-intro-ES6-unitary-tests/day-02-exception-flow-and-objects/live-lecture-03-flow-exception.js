@@ -9,6 +9,7 @@ const getNumberOfDaysInMonth = (month) => {
 		case 12:
 			return 31;
 		case 2:
+			return 28;
 		case 4:
 		case 6:
 		case 9:
@@ -23,10 +24,16 @@ const consultDaysInMonth = () => {
 	const month = document.getElementById('month').value;
 	const result = document.getElementById('result');
 
-	result.innerHTML = `O mês ${month} tem ${getNumberOfDaysInMonth(month)} dias`;
-};
+	try {
+		result.innerHTML = `O mês ${month} tem ${getNumberOfDaysInMonth(month)} dias`;
+	} catch (error) {
+		result.innerHTML = error.message;
+	} finally {
+		console.log('executa sempre');
+	}
+}
 
 window.onload = () => {
 	const botao = document.getElementById('button');
 	botao.addEventListener('click', consultDaysInMonth);
-};
+}
