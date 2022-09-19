@@ -18,12 +18,27 @@ const isNumber = (number) => {
 // summationOf(1) -> 1
 // summationOf(3) -> 6
 // summationOf(5) -> 15
-function summationOf(num){
+const summationOf = (num) => {
+	isValueNull(num); // Verifica se valor é nulo
+
+	const number = Number(num);
+	isNumber(number); // Verifica se é um número
+
 	let summation = 0;
 	for (let i = 1; i <= num; i += 1) {
 		summation += i;
 	}
 	return summation;
-}
+};
 
-module.exports = {sum, summationOf};
+// Função de interface para o usuário
+const showSummation = (number) => {
+	try {
+		const summation = summationOf(number);
+		return `A soma os números de 1 até ${number} é ${summation}`;
+	} catch (error) {
+		return `Erro: ${error.message}`;
+	}
+};
+
+module.exports = {sum, summationOf, showSummation};

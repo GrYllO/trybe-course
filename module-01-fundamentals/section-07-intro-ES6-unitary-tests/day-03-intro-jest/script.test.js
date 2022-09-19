@@ -1,4 +1,4 @@
-const {sum, summationOf} = require('./script');
+const {sum, summationOf, showSummation} = require('./script');
 
 describe('sum function tests', () => {
 	it('adds 1 + 2 to equal 3', () => {
@@ -31,4 +31,12 @@ describe('summationOf function tests', () => {
 	it('summationOf(5) to be 15', () => {
 		expect(summationOf(5)).toBe(15);
 	});
+	it("summationOf('') must throw an error", () => {
+		expect(() => summationOf('')).toThrow(Error);
+		expect(() => summationOf('')).toThrow('summationOf needs to receive a value');
+	});
+});
+
+test('showSummation', () => {
+	expect(showSummation(5)).toBe('A soma os números de 1 até 5 é 15');
 });
