@@ -8,7 +8,10 @@ function sum(a, b) {
 // summationOf(5) -> 15
 function summationOf(num){
 	let summation = 0;
-
+	for (let i = 1; i <= num; i += 1) {
+		summation += i;
+	}
+	return summation;
 }
 
 module.exports = {sum, summationOf};
