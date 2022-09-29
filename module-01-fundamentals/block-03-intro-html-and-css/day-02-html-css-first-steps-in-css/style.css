@@ -1,38 +1,38 @@
 body {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 h1 {
-	font-family: sans-serif;
-	font-size: 65px;
-	color: orange;
+  font-family: sans-serif;
+  font-size: 65px;
+  color: orange;
 }
 
 p {
-	font-weight: 600;
-	font-size: 3em;
-	font-style: italic;
-	line-height: 120%;
-	text-align: center;
-	text-decoration: underline;
+  font-weight: 600;
+  font-size: 3em;
+  font-style: italic;
+  line-height: 120%;
+  text-align: center;
+  text-decoration: underline;
 }
 
 ul {
-	background-color: aqua;
+  background-color: aqua;
 }
 
 #li-yellow {
-	background-color: yellow;
+  background-color: yellow;
 }
 
 #li-red {
-	background-color: red;
+  background-color: red;
 }
 
 #li-brown {
-	background-color: brown;
+  background-color: brown;
 }
 
 .bg-style {
-	background-color: brown;
+  background-color: brown;
 }
