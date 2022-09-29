@@ -12,16 +12,16 @@ let longest;
 let shortest;
 
 for (let i = 0; i < array.length; i++) {
-	switch (array[i].length > maxLetterCount) {
-		case true:
-			maxLetterCount = array[i].length;
-			longest = array[i];
-			break;
-		case false:
-			minLetterCount = array[i].length;
-			shortest = array[i];
-			break;
-	}
+  switch (array[i].length > maxLetterCount) {
+    case true:
+      maxLetterCount = array[i].length;
+      longest = array[i];
+      break;
+    case false:
+      minLetterCount = array[i].length;
+      shortest = array[i];
+      break;
+  }
 }
 
 console.log(`The shortest word from the string array is "${shortest}".`);

@@ -5,11 +5,11 @@
 let divisibleByThree = 0;
 
 for (let i = 2; i <= 150; i += 1) {
-	if (i % 3 === 0) {
-		divisibleByThree += 1;
-	}
+  if (i % 3 === 0) {
+    divisibleByThree += 1;
+  }
 }
 
 divisibleByThree === 50
-	? console.log("You advanced from Level 49 to Level 50.")
-	: console.log("You are dead.");
+  ? console.log("You advanced from Level 49 to Level 50.")
+  : console.log("You are dead.");
