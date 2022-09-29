@@ -16,5 +16,10 @@ father.firstElementChild;
 elementWhereYouAre.previousElementSibling;
 
 // Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta.
+elementWhereYouAre.nextSibling;
+
 // Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta.
+elementWhereYouAre.nextElementSibling;
+
 // Agora acesse o terceiroFilho a partir de pai.
+father.children[2];
