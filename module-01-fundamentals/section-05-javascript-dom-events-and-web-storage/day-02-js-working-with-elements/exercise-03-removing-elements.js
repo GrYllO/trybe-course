@@ -2,7 +2,6 @@
 e primeiroFilhoDoFilho. */
 
 const filhosDoAvo = document.querySelectorAll("section");
-const textoAlerta = document.getElementById("warningText");
 
 // Remove todos os filhos exceto os indicados
 for (i = 0; i < filhosDoAvo.length; i += 1) {
@@ -15,4 +14,20 @@ for (i = 0; i < filhosDoAvo.length; i += 1) {
     filhoDoAvo.remove();
   }
 }
-textoAlerta.innerHTML = "";
+
+/* Gabarito */
+
+/*
+const pai = document.getElementById("pai");
+const todosOsFilhos = pai.childNodes;
+for (let index = todosOsFilhos.length - 1; index >= 0; index -= 1) {
+  const filhoAtual = todosOsFilhos[index];
+  if (filhoAtual.id !== "elementoOndeVoceEsta") {
+    filhoAtual.remove();
+  }
+}
+const segundoEUltimoFilhoDoFilho = document.getElementById(
+  "segundoEUltimoFilhoDoFilho"
+); // Recupera o elemento com o id segundoEUltimoFilhoDoFilho
+segundoEUltimoFilhoDoFilho.remove(); // Remove o segundo filho do filho
+*/
