@@ -1,4 +1,4 @@
-//* Atribuir funções a variáveis:
+// Atribuir funções a variáveis:
 function sum (number1, number2) {
   return number1 + number2;
 }
@@ -13,7 +13,7 @@ const sum = (number1, number2) => {
 };
 
 
-//* Passar funções como argumento para outras funções:
+// Passar funções como argumento para outras funções:
 const sayHello = () => {
   return ('hello trybers');
 }
@@ -24,7 +24,7 @@ const printGreeting = (callback) => {
 
 printGreeting(sayHello);
 
-//* Retornar uma função de outra função:
+// Retornar uma função de outra função:
 const sumFixAmount = (amount) => {
   return (number) => amount + number;
 }
