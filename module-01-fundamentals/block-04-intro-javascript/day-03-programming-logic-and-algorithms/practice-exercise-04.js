@@ -7,17 +7,17 @@ let maxNumber = 50;
 let maxPrimeNumber = 0;
 
 for (let cNumber = minNumber; cNumber <= maxNumber; cNumber += 1) {
-	let isPrime = true;
-	for (let cDivisor = minNumber; cDivisor < cNumber; cDivisor += 1) {
-		if (cNumber % cDivisor === 0) {
-			isPrime = false;
-		}
-	}
-	if (isPrime) {
-		maxPrimeNumber = cNumber;
-	}
+  let isPrime = true;
+  for (let cDivisor = minNumber; cDivisor < cNumber; cDivisor += 1) {
+    if (cNumber % cDivisor === 0) {
+      isPrime = false;
+    }
+  }
+  if (isPrime) {
+    maxPrimeNumber = cNumber;
+  }
 }
 
 console.log(
-	`${maxPrimeNumber} is the largest prime number between ${minNumber} and ${maxNumber}.`
+  `${maxPrimeNumber} is the largest prime number between ${minNumber} and ${maxNumber}.`
 );

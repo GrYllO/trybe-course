@@ -10,67 +10,67 @@ Dica 2: Sugestão de cores padrão. StackOverflow (laranja), W3Schools (verde), 
 */
 
 ol {
-	background-color: yellow;
+  background-color: yellow;
 }
 
 ol li:nth-child(even) {
-	color: green;
+  color: green;
 }
 
 ol li:nth-child(odd) {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 h1,
 h2,
 h3 {
-	color: red;
+  color: red;
 }
 
 h1 em,
 h2 em,
 h3 em {
-	font-size: 40px;
-	border: 1px solid black;
+  font-size: 40px;
+  border: 1px solid black;
 }
 
 li {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 li em {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 #programming-languages li:not(:nth-child(n + 4)) {
-	color: blue;
+  color: blue;
 }
 
 .bg-pink {
-	background-color: pink;
+  background-color: pink;
 }
 
 ul li a[href*="stackoverflow"]:hover {
-	font-weight: bold;
-	background-color: orange;
+  font-weight: bold;
+  background-color: orange;
 }
 
 ul li a[href*="w3schools"]:hover {
-	font-weight: bold;
-	background-color: green;
+  font-weight: bold;
+  background-color: green;
 }
 
 ul li a[href*="developer.mozilla"]:hover {
-	font-weight: bold;
-	background-color: black;
+  font-weight: bold;
+  background-color: black;
 }
 
 ul li a[href*="devdocs"]:hover {
-	font-weight: bold;
-	background-color: yellow;
+  font-weight: bold;
+  background-color: yellow;
 }
 
 ul li a[href*="betrybe"]:hover {
-	font-weight: bold;
-	background-color: green;
+  font-weight: bold;
+  background-color: green;
 }
