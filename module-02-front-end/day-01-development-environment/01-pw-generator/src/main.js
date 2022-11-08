@@ -1,3 +1,9 @@
-import { nanoid } from 'nanoid'
-// model.id = nanoid() //=> "V1StGXR8_Z5jdHi6B-myT"
-console.log(nanoid());
+import { nanoid } from 'nanoid';
+
+const passwordBtnEl = document.querySelector('button');
+const displayPasswordEl = document.querySelector('h2');
+
+passwordBtnEl.addEventListener('click', () => {
+    const randomPassword = nanoid();
+    displayPasswordEl.innerHTML = randomPassword;
+});
