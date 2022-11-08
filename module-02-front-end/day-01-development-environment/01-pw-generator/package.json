@@ -1,0 +1,11 @@
+{
+  "name": "pw-generator",
+  "version": "1.0.0",
+  "description": "pw generator project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felipe \"GrYllO\"",
+  "license": "ISC"
+}
