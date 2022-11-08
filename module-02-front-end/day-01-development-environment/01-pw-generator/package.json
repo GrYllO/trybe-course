@@ -1,15 +1,18 @@
 {
-  "name": "pw-generator",
-  "version": "1.0.0",
-  "description": "pw generator project",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Felipe \"GrYllO\"",
-  "license": "ISC",
-  "dependencies": {
-    "nanoid": "^4.0.0"
-  },
-  "type": "module"
+    "name": "pw-generator",
+    "version": "1.0.0",
+    "description": "pw generator project",
+    "main": "main.js",
+    "scripts": {
+        "dev": "vite --open"
+    },
+    "author": "Felipe \"GrYllO\"",
+    "license": "ISC",
+    "dependencies": {
+        "nanoid": "^4.0.0"
+    },
+    "type": "module",
+    "devDependencies": {
+        "vite": "^3.2.3"
+    }
 }
