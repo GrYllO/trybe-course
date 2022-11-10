@@ -4,6 +4,7 @@
     "description": "pw generator project",
     "main": "main.js",
     "scripts": {
+        "build": "vite build",
         "dev": "vite --open",
         "lint": "eslint ./src",
         "test": "jest"
