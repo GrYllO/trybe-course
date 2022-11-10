@@ -13,7 +13,8 @@
     "license": "ISC",
     "dependencies": {
         "clipboard-copy": "^4.0.1",
-        "nanoid": "^4.0.0"
+        "nanoid": "^4.0.0",
+        "sweetalert2": "^11.6.7"
     },
     "type": "module",
     "devDependencies": {
