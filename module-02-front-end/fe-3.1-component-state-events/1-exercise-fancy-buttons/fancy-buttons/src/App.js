@@ -3,23 +3,27 @@ import React, { Component } from 'react';
 export default class App extends Component {
   constructor() {
     super()
-    this.handleClickOne = this.handleClickOne.bind(this);
     this.handleClickTwo = this.handleClickTwo.bind(this);
-    this.handleClickThree = this.handleClickThree.bind(this);
   }
 
+  // function not bound to this, returning undefined
   handleClickOne() {
     console.log(this)
     console.log('Fancy Button 01 clicked!');
   }
+
+  // function bound to this via constructor method
   handleClickTwo() {
     console.log(this)
     console.log('Fancy Button 02 clicked!');
   }
-  handleClickThree() {
+
+  // function bound to this via arrow function
+  handleClickThree = () => {
     console.log(this)
     console.log('Fancy Button 03 clicked!');
   }
+
   render() {
     return (
       <>
