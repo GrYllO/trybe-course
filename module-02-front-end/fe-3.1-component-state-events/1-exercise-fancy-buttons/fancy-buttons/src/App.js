@@ -4,11 +4,13 @@ export default class App extends Component {
   constructor() {
     super()
     this.handleClickTwo = this.handleClickTwo.bind(this);
-    this.state = {
-      buttonOneClicks: 0,
-      buttonTwoClicks: 0,
-      buttonThreeClicks: 0
-    }
+  }
+
+  // public class fields
+  state = {
+    buttonOneClicks: 0,
+    buttonTwoClicks: 0,
+    buttonThreeClicks: 0
   }
 
   // function not bound to this, returning undefined
